@@ -1,10 +1,7 @@
-*{
-    margin: 0;
-    padding:0;
-    background: fixed;
+body {
+  background: blue;
 }
-body{
-    padding: 10px;
-    margin: 8px;
-    background-color: blanchedalmond;
-}
+
+.logo {
+  font-weight: bold;
+}/*# sourceMappingURL=index.css.map */
