@@ -6,93 +6,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM-Manipulation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-    <!---------------------Navbar---------------->
-    <nav>
-        <div class="logo"> HALISI DESIGNS
+    <!------------------------Navbar---------------------->
+    <header>
+        <div class="navbar">
+            <!---------------Logo-------------->
+            <div class="logo"> <strong>HALISI DESIGNS</strong>
+            </div>
+            <!--------------Navigation Menu--------->
+            <ul class="nav-links">
+                <div class="menu">
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">About</a></li>
+                    <li class="services">
+                    <li> <a href="#">Services</a></li>
+                    <li> <a href="#">Types of Services</a></li>
+                    </li>
+                </div>
+            </ul>
         </div>
-        <ul>
-            <li> <a href="#">Home</a></li>
-            <li> <a href="#">About</a></li>
-            <li> <a href="#">News</a></li>
-            <div class="button">
-            </div>
-            <li> <a href="#"><button>Log In</a></button></li>
-            <li> <a href="#"><button> Sign Up</a></li></button></li>
-        </ul>
-    </nav>
-    <!----------------------Main Section(section1)-------------------->
 
-    <div class="tag-name">Where Designs, Come to Life!
-    </div>
-    <h1>
-        Our Committment
-    </h1>
-    <p> Halisi Designs is a wholistic and relatable graphics design company.
-        We proudly give our customers an interactive capacity<br>
-        through allowing them to collect design ideas for our
-        projects.</p>
-    <img src="./assets/graphics design.jpeg" alt="GD-PC">
-    <form action="index.html" method="get">
-        <input type="text" name="name" placeholder="Name" <button type="submit">Submit</button>
-    </form>
-    <!-----------------------Section 2(Testimnials)------------------>
-    <h2 class="customer-views"> What Our Customers Have to Say</h2>
-    <div class="names">
-        <ul>
-            <li> Joseph Bunker</li>
-            <p> Halisi proved not only to be efficient, but also<br>
-                paid a great attention to detail for my wedding
-                card design.</p>
-            <img src="./assets/blmnsuit.jpg" alt="blm-suit">
-            <div class="star">
-                <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px">
-                <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px">
-                <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px">
-                <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px">
+
+        <!----------------------Main Section(section1)------------------------->
+        <section>
+            <div class="tag-name">Where Designs, Come to Life!
+                <img src="./assets/graphics design.jpeg" alt="gd">
             </div>
+            <h1>
+                Our Committment
+            </h1>
+            <p> Halisi Designs is a wholistic and relatable graphics design company.
+                <br>We proudly give our customers an interactive capacity<br>
+                through allowing them to collect design ideas for our
+                projects.
             </p>
-            <li> Salvator Cammaro</li>
-            <p> My motorcycle business has significantly improved,
-                All this i attribute to the nice posters and
-                marketing ads created by Halisi Designs.</p>
-            <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px">
-            <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px">
-            <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px">
-            <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px">
-            <img src="./assets/diegomotorcycle.jpg" alt="mtrcycle">
-        </ul>
-    </div>
-    </div>
-    <!-----------------------------Footer--------------------------->
-    <div class="container">
-        <logo> Halisi Designs</logo>
-        <p> Halisi Designs is design done right.
-            Coined from the swahili word meaning Legit,
-            it combines design ideation,
-            design prototypes and completed designs on one platform.
-        </p>
-        <div class="Menu"><strong> Menu</strong>
-            <menu>
-                <ul>
-                <li> Features</li>
-                <li> Pricing</li>
-                <li> Log In</li>
-                <li> Terms and Conditions</li>
-                <li> Privacy Policy</li>
-                <li> Cookie Policy</li>
-                </ul>
-            </menu>
+            <form action="index.html" method="get">
+                <input type="text" name="name" placeholder="Name" <button type="submit">Submit</button>
+            </form>
+            </div>
+        </section>
+        <!-----------------------Section 2(Testimnials)------------------>
+        <h2 class="customer-views"> What Our Customers Have to Say</h2>
+        <div class="names">
+            <ul>
+                <li> Joseph Bunker</li>
+                <p> Halisi proved not only to be efficient, but also<br>
+                    paid a great attention to detail for my wedding
+                    card design.</p>
+                <img src="./assets/blmnsuit.jpg" alt="blm-suit" height="150px" width="100px">
+                <div class="star">
+                    <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px">
+                    <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px">
+                    <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px">
+                    <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px">
+                </div>
+                </p>
+                <li> Salvator Cammaro</li>
+                <p> My motorcycle business has significantly improved,
+                    All this i attribute to the nice posters and
+                    marketing ads created by Halisi Designs.</p>
+                <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px">
+                <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px">
+                <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px  ">
+                <img src="./assets/star-solid.svg" alt="str" height="40px" width="30px">
+                <img src="./assets/diegomotorcycle.jpg" alt="mtrcycle">
+            </ul>
         </div>
-    </div>
-    <h3> Connect With Us</h3>
-    <img src="./assets/square-facebook-brands.svg" alt="fb" height="40px" width="30px">
-    <img src="./assets/square-instagram-brands.svg" alt="ig" height="40px" width="30px">
-    <img src="./assets/square-twitter-brands.svg" alt="twtr" height="40px" width="30px">
-    <img src="./assets/linkedin-brands.svg" alt="lnkd" height="40px" width="30px">
-    
+        </div>
+        <!-----------------------------Footer--------------------------->
+        <div class="container2">
+            <logo> Halisi Designs</logo>
+            <p> Halisi Designs is design done right.
+                Coined from the swahili word meaning Legit,
+                it combines design ideation,
+                design prototypes and completed designs on one platform.
+            </p>
+            <div class="Menu"><strong> Menu</strong>
+                <menu>
+                    <ul>
+                        <li> Features</li>
+                        <li> Pricing</li>
+                        <li> Log In</li>
+                        <li> Terms and Conditions</li>
+                        <li> Privacy Policy</li>
+                        <li> Cookie Policy</li>
+                    </ul>
+                </menu>
+            </div>
+        </div>
+        <h3> Connect With Us</h3>
+        <img src="./assets/square-facebook-brands.svg" alt="fb" height="40px" width="30px">
+        <img src="./assets/square-instagram-brands.svg" alt="ig" height="40px" width="30px">
+        <img src="./assets/square-twitter-brands.svg" alt="twtr" height="40px" width="30px">
+        <img src="./assets/linkedin-brands.svg" alt="lnkd" height="40px" width="30px">
+        <script></script>
 
-</html> 
+</html>
