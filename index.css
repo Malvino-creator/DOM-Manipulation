@@ -66,4 +66,21 @@ li a:hover {
 
 .menu li {
   padding: 10px 60px;
+}
+
+.services {
+  position: absolute;
+}
+
+.dropdown {
+  background-color: rgb(1, 139, 139);
+  padding: 1em 0;
+  position: absolute; /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 30px;
+}
+
+.services:hover .dropdown {
+  display: block;
 }/*# sourceMappingURL=index.css.map */
